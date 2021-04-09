@@ -1,9 +1,8 @@
 <mat-toolbar>
     <span class="example-spacer"></span>
         <div class='header-btn'>
-            <p class='header-content'>About</p>
-            <p class='header-content'>Projects</p>
-            <p class='header-content'>Contact</p>
-            <p class='header-content'><a download="Tejas_Hegde_Resume.pdf" href="../../assets/Tejas_Hegde_Resume.pdf">Resume</a></p>
+            <p class='header-content' (click)="toTopAbout()">About</p>
+            <p class='header-content' (click)="toTopProjects()">Projects</p>
+            <p class='header-content' (click)="toTopContacts()">Contact</p>
         </div>
 </mat-toolbar>
