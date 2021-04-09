@@ -1,0 +1,22 @@
+<div class="card-component">
+    <div class="project-card" *ngFor="let project of projects;index as i;">
+        <div>
+            <mat-card>
+                <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>{{project.name}}</mat-card-title>
+                <mat-card-subtitle>{{project.languages}}</mat-card-subtitle>
+                </mat-card-header>
+                <br/>
+                <a href={{project.link}} target="_blank">
+                <img mat-card-image src={{project.image}} alt="Photo of a Shiba Inu">
+                </a>
+                <mat-card-content>
+                <p>
+                    {{project.description}}
+                </p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

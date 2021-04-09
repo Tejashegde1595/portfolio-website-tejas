@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+mat-toolbar{
+    color: wheat;
+    background-color: black;
+
+}
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.header-content{
+    margin: 15px;
+}
+
+a:link{
+    color: wheat;
+    text-decoration: none;
+}

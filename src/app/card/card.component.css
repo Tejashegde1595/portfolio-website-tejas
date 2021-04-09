@@ -1,0 +1,31 @@
+
+  .example-header-image {
+    background-image: url("../../assets/download.png");
+    background-size: cover;
+  }
+
+.card-component{
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+mat-card{
+    width: 20vw;
+    height: auto;
+}
+
+.project-card{
+    margin: 20px;
+}
+
+img{
+    height: 200px;
+    cursor: pointer;
+}
+
+mat-card-content{
+    height: 50px;
+}
